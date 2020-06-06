@@ -82,7 +82,7 @@ Hugo makes use of a variety of open source projects including:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://asachdeva.github.io/resume/</guid>
-      <description>Akshay Sachdeva I am a software engineer. I prefer a pure functional programming approach to design, and implementation to build high performant and modular solutions. Cloud Engineering Savvy (GCP |+| AWS |+| Azure) I love OSS and welcome the growth from engaging in contributions with the community.
+      <description>Akshay Sachdeva I am a software engineer. I prefer a pure functional programming approach to design and implementation to build high performant and modular solutions. Cloud Engineering Savvy (GCP |+| AWS |+| Azure) I love OSS and welcome the growth from engaging in contributions with the community.
 Professional Experience March 2019 - Present Dell Inc — Sr Principal Engineer &amp;ndash; Research in Advanced Engineering Working on Streaming DataPipeline hosted at Azure utilizing Kubernetes to help acquire, transform and mine real time signals from Dell devices, storage and network components at a massive scale to enable Data Scientists run better models faster and more importantly more pre emptively for better a better support infrastructure.</description>
     </item>
     
