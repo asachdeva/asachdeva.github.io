@@ -16,17 +16,14 @@
     
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400i,500,800" rel="stylesheet">
     
-      <link href='https://asachdeva.github.io/css/belmu.css?1602775050269685797' rel='stylesheet' type="text/css" />
-      <link href='https://asachdeva.github.io/css/main.css?1602775050269720578' rel='stylesheet' type="text/css" />
+      <link href='https://asachdeva.github.io/css/belmu.css?1602775050269924978' rel='stylesheet' type="text/css" />
+      <link href='https://asachdeva.github.io/css/main.css?1602775050269947574' rel='stylesheet' type="text/css" />
     
     
     
       <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
     
 
-    
-      <link href="https://asachdeva.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Akshay Sachdeva" />
-      <link href="https://asachdeva.github.io/index.xml" rel="feed" type="application/rss+xml" title="Akshay Sachdeva" />
     
 
     
@@ -42,16 +39,29 @@
 <h1 id="akshay-sachdeva">Akshay Sachdeva</h1>
 
 <p>I am a software engineer.
-I prefer a pure functional programming approach to design and implementation to provide high performance and modular
+I prefer a pure functional programming approach to design and implementation to build high performant and modular
 solutions.
-Cloud Engineering Savvy (GCP |+| AWS |+| Azure).
-I love OSS and welcome the growth from engaging in contributions and learning from the community.</p>
+Cloud Engineering Savvy (GCP |+| AWS |+| Azure)
+I love OSS and welcome the growth from engaging in contributions with the community.</p>
 
-<div class="grid">
-    
+<h2 id="professional-experience">Professional Experience</h2>
 
-<div class="col -span-cols-6 -m-right-2">
-    <h2 id="professional-experience">Professional Experience</h2>
+<h6 id="march-2020-present"><em>March 2020 - Present</em></h6>
+
+<h3 id="hifi-sr-principal-engineer">HiFi — Sr Principal Engineer -</h3>
+
+<p>Working on Streaming DataPipeline hosted at GCP utilizing Kubernetes/DataProc to help acquire, transform and mine real time
+statements from channel providers, and ruin aggregations and anaytics against them to help support financial rights for artists</p>
+
+<ul>
+<li>&ndash; Scala with fs2, http4s, sttp, circe, cats et al</li>
+<li>Data Visualization &ndash; Google Alerting</li>
+<li>GCP</li>
+</ul>
+
+<p>Responsible for designing, architecting and implementing this offering on scala 2.13 and a mix of typelevel libs in
+cats, circe, http4s and fs2 for stream and stream combinators.  Build and Deployment is using CircleCI and Terraform
+to provision.  Also using Looker + BigQuery + BigTable at GCP to provide analytics.</p>
 
 <h6 id="march-2019-present"><em>March 2019 - Present</em></h6>
 
@@ -59,16 +69,16 @@ I love OSS and welcome the growth from engaging in contributions and learning fr
 
 <p>Working on Streaming DataPipeline hosted at Azure utilizing Kubernetes to help acquire, transform and mine real time
 signals from Dell devices, storage and network components at a massive scale to enable Data Scientists run better
-models faster and more importantly more pre emptively for a better support infrastructure</p>
+models faster and more importantly more pre emptively for better a better support infrastructure.</p>
 
 <ul>
-<li>&ndash; Scala with zio-streams, http4s, cats.</li>
+<li>&ndash; Scala with zio-streams, http4s, cats et al</li>
 <li>Data Visualization &ndash; Prometheus + Grafana</li>
 <li>Azure</li>
 </ul>
 
 <p>Responsible for designing, architecting and implementing this offering on scala 2.12 and a mix of typelevel libs in
-cats, circe, http4s and zio for stream and stream combinators.  Build and Deployments is using GitLab and k8s+Terraform
+cats, circe, http4s and zio for stream and stream combinators.  Build and Deployment is using GitLab and k8s+Terraform
 to provision.  Also researching Graph DB and GraphQL approach for an Enterprise Knowledge Graph solution for the fraud
 detection and support assist teams.</p>
 
@@ -77,26 +87,25 @@ detection and support assist teams.</p>
 <h3 id="citrine-informatics-senior-software-engineer-remote">Citrine Informatics — Senior Software Engineer (Remote)</h3>
 
 <p>Worked on Machine Learning REST Service hosted at AWS utilizing EC2 to enable an application for Citrine to serve its ML
-Library built on Scala.  The REST service interacted with a Data Service Component (Dynamo DB + Postgres) and integrated
+Library also built on Scala.  The REST service interacted with a Data Service Component (Dynamo DB + Postgres) and integrated
 with a TypeScript REST API that provided authentication and authoriziation leveraging JWT.</p>
 
 <ul>
 <li>&ndash; Scala with Akka(Actors, Http, Streams), cats, json4s, cats-effect et al</li>
 <li>AWS (SQS, Cloudwatch, EC2, DynamoDB, S3, Lambda, AWS Batch)</li>
-<li>Data Visualization &ndash; Monitoring Service + statsD + DataDog + AWS Lambda to move data from Cloudwatch to Datadog</li>
+<li>Data Visualization &ndash; Monitoring Service + DataDog + AWS Lambda to move data from Cloudwatch to Datadog</li>
 </ul>
 
-<p>Responsible for implementing and refactoring this service built on scala 2.12 to migrate to a pure FP approach using cats +
-cats-effects and bringing better testing approach using scalacheck.  Build and Deployments was using Pants + Jenkins +
-CF/Jssonet templates</p>
+<p>Responsible for implementing and refactoring this service built on scala 2.12 to migrate to a pureFP approach using cats +
+cats-effects and bringing scalacheck.  Build and Deployments was using Pants + Jenkins + CF/Jssonet.</p>
 
 <h6 id="august-2017-march-2019">August 2017 - March 2019</h6>
 
 <h3 id="spiceworks-inc-staff-data-engineer">Spiceworks Inc — Staff Data Engineer</h3>
 
-<p>Worked on Streaming Data Pipeline to support a RTB (Real Time Bidding) for the adtech space.  The Pipeline had 23
+<p>Worked on Streaming Data Pipeline to support a RTB (Real Time Bidding) service for the adtech space.  The Pipeline had 23
 microservices that were deployed on AWS on EKS with Monitoring support using DataDog.  The Persistence stores ranged
-from RDS(Schema ereg), to Redis(cache and lookup), to Cassandra(Graph + History), to DynamoDB and AthenaDB(datalake),
+from RDS(Schema registry), to Redis(cache and lookup), to Cassandra(Graph + History), to DynamoDB and AthenaDB(datalake),
 and finally to Kafka as data backplane.
 Orchestration and ETL was built using Airflow (Python 3.6)
 The RTB stack was built on GoLang</p>
@@ -104,13 +113,13 @@ The RTB stack was built on GoLang</p>
 <ul>
 <li>&ndash; Scala with Akka(Actors, Http, Streams, Persistence), fs2, cats, cats-effect, circe, doobie, shapeless, sangria, Gatling et al</li>
 <li>AWS (Kinesis, Eks, Athena, Lambda, Glue)</li>
-<li>Heavy use of Kafka</li>
-<li>Data Visualiztion migrated from Eks to NewRelic to DataDog</li>
+<li>Heavy use of Kafka as databackplane to connect services and RTB service</li>
+<li>Data Visualiztion migrated from ELK to NewRelic to DataDog</li>
 </ul>
 
 <p>Responsible for implementing and refactoring this service built on scala 2.12 and later to migrate to a pure FP approach using cats +
-fs2 and http4s and bringing better testing approach using scalacheck.  Build and Deployments was using sbt + Gitlab +
-k8s + Terraform.</p>
+fs2 and http4s and bringing better testing using scalacheck.  Build and Deployments was using sbt + Gitlab + k8s +
+Terraform</p>
 
 <h6 id="august-2012-march-2017">August 2012 - March 2017</h6>
 
@@ -122,11 +131,11 @@ spark application built around Kafka and used HDFS as a Sink. Persistence ranged
 <ul>
 <li>&ndash; Scala with spark, spark-job-server, Gatling et al</li>
 <li>AWS (EMR + CF)</li>
-<li>Heavy use of Kafka</li>
+<li>Kafka as Message Bus</li>
 <li>Data Visualiztion using ELK stack</li>
 </ul>
 
-<p>Responsible for designing, implementing this application built on scala 2.11 and spark.  Build and Deployments were using
+<p>Responsible for designing, implementing this application built on scala 2.11 and spark.  Build and Deployment were using
 an Atlassian Stack in Bamboo and then Gradle to build the artifacts.  Additionally at this company I also worked on
 projects that included Search Infra (Elastic Search) and a Readmission application using Node.js/Java/Guice, Spring.</p>
 
@@ -134,15 +143,12 @@ projects that included Search Infra (Elastic Search) and a Readmission applicati
 SiteStuff Inc (Developer/Development Manager), Fusion Learning Systems (Technical Architect), IBM (Appication
 Developer), Trilogy Software (Developer/Consultant).  These experiences stretched from 1998 through 2012.</p>
 
-</div>
-
-<div class="col -span-cols-4 -p-left-3">
-    <h4 id="fluent-with">Fluent with</h4>
+<h4 id="fluent-with">Fluent with</h4>
 
 <ul>
 <li>Scala (Typelevel + Zio)</li>
 <li>Java</li>
-<li>Spark (unfortunately)</li>
+<li>Spark</li>
 </ul>
 
 <h4 id="familiar-with">Familiar with</h4>
@@ -164,27 +170,22 @@ Developer), Trilogy Software (Developer/Consultant).  These experiences stretche
 
 <h4 id="educational-info">Educational Info</h4>
 
-<dl>
-<dt><strong>Degree from University of Texas at Austin:</strong>
+<ul>
+<li><strong>Degree from University of Texas at Austin:</strong>
 
-<dd>BS - Computer Science with minor in Math</dt>
-<dt>BA - Economics</dd></dt>
-</dl>
+<ol>
+<li>BS - Computer Science with minor in Math</li>
+<li>BA - Economics</li>
+</ol></li>
+</ul>
 
 <h2 id="hobbies-interests">Hobbies/Interests</h2>
 
 <p>I have interests&hellip;cooking, traveling, yoga, rainforests, road biking, music</p>
 
-<div class="-print-only">
-    <h2 id="references">References</h2>
+<h2 id="references">References</h2>
 
 <p>Please contact me at <a href="mailto:asachdeva@utexas.edu">asachdeva@utexas.edu</a></p>
-
-</div>
-
-<p></div></p>
-
-<p></div></p>
 
 
         <div id="drawing"></div>
