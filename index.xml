@@ -83,7 +83,7 @@ Hugo makes use of a variety of open source projects including:
       
       <guid>https://asachdeva.github.io/resume/</guid>
       <description>Akshay Sachdeva I am a software engineer. I prefer a pure functional programming approach to design and implementation to build high performant and modular solutions. Cloud Engineering Savvy (GCP |+| AWS |+| Azure) I love OSS and welcome the growth from engaging in contributions with the community.
-Professional Experience March 2020 - Present HiFi — Sr Principal Engineer - Working on Streaming DataPipeline hosted at GCP utilizing Kubernetes/DataProc to help acquire, transform and mine real time statements from channel providers, and ruin aggregations and anaytics against them to help support financial rights for artists</description>
+Professional Experience March 2020 - Present HiFi — Sr Principal Engineer - Working on Streaming DataPipeline hosted at GCP utilizing Kubernetes/DataProc to help acquire, transform and mine real time statements from channel providers, and run aggregations and anaytics against them to help support financial rights for artists</description>
     </item>
     
   </channel>
